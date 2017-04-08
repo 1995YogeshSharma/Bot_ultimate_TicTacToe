@@ -505,13 +505,6 @@ def successors(state):
    # print validBoards
     for k in validBoards:
         row, col = k[0], k[1]
-        try:
-            assert(state.mainBlock[row*3 + col] == '-')
-        except AssertionError:
-            #print "abe lite lelo"
-        #    print row, col, row*3+col
-        #    print state.mainBlock
-        #    print validBoards
         for i in range(row*3, row*3+3):
             for j in range(col*3, col*3+3):
                 if state.board[i][j] == '-':
