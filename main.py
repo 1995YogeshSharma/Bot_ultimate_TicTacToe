@@ -1,16 +1,5 @@
 ''' 
-
 This is the engine for the Ultimate TicTacToe Tournament. The code in this file is not for reproduction.
-@author: Devansh Shah
-
-The structure of the code is as below:
-1. Header Files
-2. Sample implementations of your class (Player and ManualPlayer)
-3. Game Logic
-4. Game simulator
-
-In case of any queries, please post on moodle.iiit.ac.in
-
 '''
 
 import sys
